@@ -1,0 +1,25 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "prosemirror-commands": "^1.7.1",
+    "prosemirror-model": "^1.25.1",
+    "prosemirror-state": "^1.4.3",
+    "prosemirror-view": "^1.40.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^2.2.10"
+  }
+}
